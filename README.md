@@ -1,7 +1,7 @@
 # Reordered Format String Deobfuscator
 ![format-string-deobfuscator](https://raw.githubusercontent.com/bobby-tablez/Format-String-Deobfuscator/main/fs_deobfuscator_header.png)
 
-This PowerShell script simply deobfuscates obfuscated files which leverage "Format String Reordering" in order to hide its original code. For more information on this obfuscation technique, see: https://www.securonix.com/blog/hiding-the-powershell-execution-flow/
+This script simply deobfuscates obfuscated PowerShell files or commands which leverage "Format String Reordering" in order to hide its original code. For more information on this obfuscation technique, see: https://www.securonix.com/blog/hiding-the-powershell-execution-flow/
 
 The script has the ability to deobfuscate format strings in an entire file ( -f parameter) , or as one liners supplied in plain text ( -s ) or base64 encoded ( -b )
 
