@@ -15,21 +15,21 @@
     Specifies the PowerShell file name to deobfuscate. The deobfuscated lines will appear as console output. Lines with no format strings will be ignored.
     
 .Example 
-    # Example: Deobfuscate a file:
+    # Example: Deobfuscate a file using the -f parameter:
     fs_deobfuscator.ps1 -f oobfuscated_file.ps1
 
 .Parameter s 
     Specifies the script to deobfuscate. Supply a format string directly as a parameter.
     
 .Example 
-    # Example: Deobfuscate a script one-liner:
+    # Example: Deobfuscate a script one-liner using the -s parameter:
     fs_deobfuscator.ps1 -s '(  "{0}{3}{4}{1}{2}" -f "S","Mo","de","et-Stri","ct")'
 
 .Parameter b 
     Specifies the script to deobfuscate that is base64 encoded. This is useful when quotation marks could potentially break formatting when reading in parameters in PowerShell.
 
 .Example 
-    # Example: Deobfuscate a script one-liner that is base64 encoded:
+    # Example: Deobfuscate a script one-liner that is base64 encoded using the -b parameter:
     fs_deobfuscator.ps1 -b KCAiIHswfXszfXs0fXsxfXsyfSAiIC1mICdTJywnTW8nLCdkZScsJ2V0LVN0cmlkJywnY3QnICk=
 #>
 
